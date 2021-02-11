@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+  <title>sample</title>
+  <meta name="description" content="p5.jsを使ったサンプルサイト">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- p5.js用-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="js/sketch.js"></script>
+
+    <!-- jQuery用 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="splash01">
+        <!--/splash-->
+    </div>
+    <div class="splash-ani01"></div>
+    <div class="splash-ani02"></div>
+
+    <main>
+        <header class="page-header" id="scroll">
+            <ul class="header-nav">
+                <li><a href="#top">top</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#link">link</a></li>
+            </ul>
+        </header>
+        <div class="top" id="top">
+            <h1 class="top-word mark-bottom">HELLO&ensp;WORLD</h1>
+        </div>
+
+        <div class="floating-banner">
+            <p>バナー内容</p>
+        </div>
+
+        <div class="wrapper">
+            <section class="topic" id="about">
+                <h2 class="topic-title"><span class="orange">a</span>bout</h2>
+                <div class="topic-body">
+                    <div class="topic-title-sub"><strong>このサイトを作った理由</strong></div>
+                    <p>&nbsp;1ページで完結するサイトを作りたかった。
+                        自分のポートフォリオサイトで使わなかった要素(コンタクトフォーム,スライドショー,浮かんでるバナー)を設置する練習がしたかった。
+                        あと、p5.jsで作った作品を背景に設置したサイトを作ってみたかった。
+                        (かっこいいホームページを手軽に作れそうだなと思ったので)
+                    </p>
+                    <p>&nbsp;結果、思ったよりも簡単に背景にp5.jsで書いた作品を設置できた。
+                        今回は背景に設置したが、トップページの一面に動きのある作品を設置するのも良いなと思った。
+                    </p>
+                </div>
+                <div class="topic-body">
+                    <div class="topic-title-sub"><strong>使ったものいろいろ</strong></div>
+                    <p>&nbsp;使用言語：HTML/CSS,JavaScript(jQuery,p5.js)</p>
+                    <p>&nbsp;フォント：Noto Sans,Staatliches</p>
+                </div>
+            </section>
+            <div class="topic">
+
+                <h2 class="topic-title" id="works">wo<span class="orange">r</span>ks</h2>
+                <div class="topic-body">
+                    <div class="topic-title-sub"><strong>制作実績</strong></div>
+                </div>
+                <div class="works-slider">
+                    <img src="imgs/works01.jpg">
+                </div>
+                <div class="topic-body">
+
+                    <p>彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。</p>
+                </div>
+            </div>
+            <div class="topic">
+                <h2 class="topic-title" id="contact">co<span class="orange">n</span>tact</h2>
+                <div class="topic-body">
+                    <p>彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。</p>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h2 class="topic-title" id="link">lin<span class="orange">k</span></h2>
+                <div class="topic-body">
+                    <p>彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。
+                        彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。彼らの機器や装置はすべて生命体だ。</p>
+                </div>
+            </div>
+
+        </div>
+        <footer class="page-footer">
+            <div><small>&copy;2021 Yui Hojo</small></div>
+        </footer>
+    </main>
+</body>
